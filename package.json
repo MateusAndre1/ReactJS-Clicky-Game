@@ -1,8 +1,8 @@
 {
-  "homepage": "http://mateusandre1.github.io/ReactJS-Clicky-Game",
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mateusandre1.github.io/ReactJS-Clicky-Game",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
