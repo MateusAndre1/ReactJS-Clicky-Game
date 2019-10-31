@@ -16,7 +16,6 @@ function shuffleImage(arr) {
   return arr
 };
 
-
 class App extends Component {
   state = {
     saiyans,
