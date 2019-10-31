@@ -1,1 +1,1 @@
-# ReactJS-Clicky-Game
+# ReactJS Clicky Game
