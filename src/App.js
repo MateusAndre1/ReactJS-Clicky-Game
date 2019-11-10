@@ -33,7 +33,7 @@ class App extends Component {
       clickedSaiyans.push(id);
       this.handleIncrement();
       this.saiyanShuffle();
-    } else if (this.state.score === 12) {
+    } else if (this.state.score === 15) {
       alert("You win!")
       this.setState({
         score: 0,
@@ -44,7 +44,7 @@ class App extends Component {
         score: 0,
         clickedSaiyans: []
       });
-      alert("Sorry you picked the same fighter twice, try again!")
+      alert("Sorry you picked the same saiyan twice, try again!")
     }
 
     if (score > topScore) {

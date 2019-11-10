@@ -16,47 +16,62 @@
   },
   {
     "id": 4,
-    "name": "Dexter",
+    "name": "bardock",
     "image": "./assets/images/bardock.png"
   },
   {
     "id": 5,
-    "name": "Courage",
+    "name": "broly",
     "image": "./assets/images/broly.png"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
+    "name": "gohan",
     "image": "./assets/images/gohan.png"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
+    "name": "gotenks",
     "image": "./assets/images/gotenks.png"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
+    "name": "nappa",
     "image": "./assets/images/nappa.png"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
+    "name": "raditz",
     "image": "./assets/images/raditz.png"
   },
   {
     "id": 10,
-    "name": "Rocko",
+    "name": "trunks",
     "image": "./assets/images/trunks.png"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
+    "name": "vegeta",
     "image": "./assets/images/vegeta.png"
   },
   {
     "id": 12,
-    "name": "Ickis",
+    "name": "vegeta",
     "image": "./assets/images/vegeta2.png"
+  },
+  {
+    "id": 13,
+    "name": "gohan",
+    "image": "./assets/images/gohan2.png"
+  },
+  {
+    "id": 14,
+    "name": "trunks",
+    "image": "./assets/images/trunks2.png"
+  },
+  {
+    "id": 15,
+    "name": "goten",
+    "image": "./assets/images/goten.png"
   }
 ]
