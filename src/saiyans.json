@@ -58,20 +58,5 @@
     "id": 12,
     "name": "vegeta",
     "image": "./assets/images/vegeta2.png"
-  },
-  {
-    "id": 13,
-    "name": "gohan",
-    "image": "./assets/images/gohan2.png"
-  },
-  {
-    "id": 14,
-    "name": "trunks",
-    "image": "./assets/images/trunks2.png"
-  },
-  {
-    "id": 15,
-    "name": "goten",
-    "image": "./assets/images/goten.png"
   }
 ]

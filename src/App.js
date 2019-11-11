@@ -8,7 +8,7 @@ import "./App.css";
 // shuffle arr of saiyans
 function shuffleImage(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i+1));
+    let j = Math.floor(Math.random() * (i + 1));
     let temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp
@@ -33,7 +33,7 @@ class App extends Component {
       clickedSaiyans.push(id);
       this.handleIncrement();
       this.saiyanShuffle();
-    } else if (this.state.score === 15) {
+    } else if (this.state.score === 12) {
       alert("You win!")
       this.setState({
         score: 0,
@@ -63,13 +63,13 @@ class App extends Component {
 
 
   render() {
-    return (    
+    return (
       <Wrapper>
-         <Title 
-            score={this.state.score}
-            topScore={this.state.topScore} />
-        <div class="container"> 
-          <div class="row">
+        <Title
+          score={this.state.score}
+          topScore={this.state.topScore} />
+        <div class="container">
+          <div className="row mx-auto">
             {this.state.saiyans.map(character => (
               <SaiyanCard
                 id={character.id}
@@ -77,12 +77,12 @@ class App extends Component {
                 name={character.name}
                 image={character.image}
                 clickedImage={this.clickedImage}
-                />
+              />
             ))}
-            </div>
+          </div>
         </div>
       </Wrapper>
-    ); 
+    );
   }
 }
 
